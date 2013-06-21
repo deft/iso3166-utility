@@ -1,0 +1,15 @@
+{
+    "name": "deft/iso3166-utility",
+    "description": "Library to convert ISO3166 alpha-2 country codes to their alpha-3 counterpart and vice versa.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jan Kramer",
+            "email": "jan@deft.nl"
+        }
+    ],
+    "autoload": {
+        "psr-0": { "Deft\\ISO3166": "src/" }
+    },
+    "minimum-stability": "dev"
+}

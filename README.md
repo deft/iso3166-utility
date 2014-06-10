@@ -8,8 +8,8 @@ Library to convert ISO3166 alpha-2 country codes to their alpha-3 counterpart an
 <?php
 
 $util = new Deft\ISO3166\CountryCodeUtility();
-print $util->convertAlpha2ToAlpha3('NLD'); // Outputs 'NL'
-print $util->convertAlpha3ToAlpha2('NL'); // Outputs 'NLD';
+print $util->convertAlpha2ToAlpha3('NL'); // Outputs 'NLD'
+print $util->convertAlpha3ToAlpha2('NLD'); // Outputs 'NL';
 
 // Converting non-existing country codes will result in null
 $util->convertAlpha3ToAlpha2('FOO'); // Returns null
